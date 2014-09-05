@@ -6,13 +6,21 @@
   "scripts": {
     "test": "node node_modules/minijasminenode/lib/cli.js spec/*_spec.js"
   },
-  "author": "Peter Hastie",
+  "author": {
+    "name": "Peter Hastie",
+    "email": "pete@sillypog.com",
+    "url": "http://www.sillypog.com"
+  },
   "license": "MIT",
   "keywords": [
     "jasmine",
     "test",
     "spec"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sillypog/jasmine-incomplete-match.git"
+  },
   "devDependencies": {
     "minijasminenode": "^1.1.1"
   }
