@@ -1,0 +1,19 @@
+{
+  "name": "jasmine-incomplete-match",
+  "version": "1.0.0",
+  "description": "Alternative to jasmine.any for when some object properties are known.",
+  "main": "lib/incompleteMatch.js",
+  "scripts": {
+    "test": "node node_modules/minijasminenode/lib/cli.js spec/*_spec.js"
+  },
+  "author": "Peter Hastie",
+  "license": "MIT",
+  "keywords": [
+    "jasmine",
+    "test",
+    "spec"
+  ],
+  "devDependencies": {
+    "minijasminenode": "^1.1.1"
+  }
+}
